@@ -11,6 +11,7 @@ class BucketSeeder extends Seeder
     {
         // Create a demo bucket
         Bucket::create([
+            'id' => 1,
             'name' => 'demo-bucket',
             'api_key' => 'sk_demo1234567890abcdef',
             'visibility' => 'public',
@@ -18,6 +19,7 @@ class BucketSeeder extends Seeder
         ]);
 
            Bucket::create([
+            'id' => 2,
             'name' => 'newdemo-buckets',
             'api_key' => 'sk_demo1234567890abcdefs',
             'visibility' => 'public',
